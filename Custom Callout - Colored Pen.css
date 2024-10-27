@@ -1,0 +1,124 @@
+/* Crédit en français
+Copyright (c) 2024 Noah Boos (aka Rift).
+Ce code est protégé par les droits d'auteurs, vos droits à l'égard de ce code sont définis par la license accompagné avec le projet.
+Voir le fichier "LICENSE.md" pour plus d'informations. Il devrait être situé à la racine du projet.
+
+Code source original de Noah Boos (aka Rift).
+Ce fichier fait partie du projet "Better Callout".
+*/
+/* English credits
+Copyright (c) 2024 Noah Boos (aka Rift).
+This code is protected by copyright law. Your rights regarding this code are defined by the accompanying license.
+Please refer to the file named "LICENSE.md" for more information.
+
+Original source code from Noah Boos (aka Rift). This code should be located in the root directory of the project.
+This file is part of the "Better Callout" project.
+*/
+/* GitHub Repository : https://github.com/NoahBoos/Obsidian-Better-Callout */
+/* White Pen */
+.callout[data-callout-metadata~=pen-white] > .callout-title > .callout-icon > svg {
+  stroke: var(--mbr-white-hex);
+}
+.callout[data-callout-metadata~=pen-white] > .callout-title > .callout-title-inner {
+  color: var(--mbr-white-hex);
+  --callout-title-color: var(--mbr-white-hex);
+}
+.callout[data-callout-metadata~=pen-white] > .callout-content {
+  color: var(--mbr-white-hex);
+}
+
+/* Black Pen */
+.callout[data-callout-metadata~=pen-black] > .callout-title > .callout-icon > svg {
+  stroke: var(--mbr-black-hex);
+}
+.callout[data-callout-metadata~=pen-black] > .callout-title > .callout-title-inner {
+  color: var(--mbr-black-hex);
+  --callout-title-color: var(--mbr-black-hex);
+}
+.callout[data-callout-metadata~=pen-black] > .callout-content {
+  color: var(--mbr-black-hex);
+}
+
+/* Red Pen */
+.callout[data-callout-metadata~=pen-red] > .callout-title > .callout-icon > svg {
+  stroke: var(--mbr-red-hex);
+}
+.callout[data-callout-metadata~=pen-red] > .callout-title > .callout-title-inner {
+  color: var(--mbr-red-hex);
+  --callout-title-color: var(--mbr-red-hex);
+}
+.callout[data-callout-metadata~=pen-red] > .callout-content {
+  color: var(--mbr-red-hex);
+}
+
+/* Orange Pen */
+.callout[data-callout-metadata~=pen-orange] > .callout-title > .callout-icon > svg {
+  stroke: var(--mbr-orange-hex);
+}
+.callout[data-callout-metadata~=pen-orange] > .callout-title > .callout-title-inner {
+  color: var(--mbr-orange-hex);
+  --callout-title-color: var(--mbr-orange-hex);
+}
+.callout[data-callout-metadata~=pen-orange] > .callout-content {
+  color: var(--mbr-orange-hex);
+}
+
+/* Yellow Pen */
+.callout[data-callout-metadata~=pen-yellow] > .callout-title > .callout-icon > svg {
+  stroke: var(--mbr-yellow-hex);
+}
+.callout[data-callout-metadata~=pen-yellow] > .callout-title > .callout-title-inner {
+  color: var(--mbr-yellow-hex);
+  --callout-title-color: var(--mbr-yellow-hex);
+}
+.callout[data-callout-metadata~=pen-yellow] > .callout-content {
+  color: var(--mbr-yellow-hex);
+}
+
+/* Green Pen */
+.callout[data-callout-metadata~=pen-green] > .callout-title > .callout-icon > svg {
+  stroke: var(--mbr-green-hex);
+}
+.callout[data-callout-metadata~=pen-green] > .callout-title > .callout-title-inner {
+  color: var(--mbr-green-hex);
+  --callout-title-color: var(--mbr-green-hex);
+}
+.callout[data-callout-metadata~=pen-green] > .callout-content {
+  color: var(--mbr-green-hex);
+}
+
+/* Blue Pen */
+.callout[data-callout-metadata~=pen-blue] > .callout-title > .callout-icon > svg {
+  stroke: var(--mbr-blue-hex);
+}
+.callout[data-callout-metadata~=pen-blue] > .callout-title > .callout-title-inner {
+  color: var(--mbr-blue-hex);
+  --callout-title-color: var(--mbr-blue-hex);
+}
+.callout[data-callout-metadata~=pen-blue] > .callout-content {
+  color: var(--mbr-blue-hex);
+}
+
+/* Purple Pen */
+.callout[data-callout-metadata~=pen-purple] > .callout-title > .callout-icon > svg {
+  stroke: var(--mbr-purple-hex);
+}
+.callout[data-callout-metadata~=pen-purple] > .callout-title > .callout-title-inner {
+  color: var(--mbr-purple-hex);
+  --callout-title-color: var(--mbr-purple-hex);
+}
+.callout[data-callout-metadata~=pen-purple] > .callout-content {
+  color: var(--mbr-purple-hex);
+}
+
+/* Pink Pen */
+.callout[data-callout-metadata~=pen-pink] > .callout-title > .callout-icon > svg {
+  stroke: var(--mbr-pink-hex);
+}
+.callout[data-callout-metadata~=pen-pink] > .callout-title > .callout-title-inner {
+  color: var(--mbr-pink-hex);
+  --callout-title-color: var(--mbr-pink-hex);
+}
+.callout[data-callout-metadata~=pen-pink] > .callout-content {
+  color: var(--mbr-pink-hex);
+}
