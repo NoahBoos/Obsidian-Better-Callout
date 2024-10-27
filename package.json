@@ -1,0 +1,15 @@
+{
+  "name": "snippets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "sass --watch --no-source-map --no-charset scss:./ && sass --watch --no-source-map --no-charset scss:../"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.80.4"
+  }
+}
