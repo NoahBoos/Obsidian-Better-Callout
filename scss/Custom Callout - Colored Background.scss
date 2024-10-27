@@ -1,0 +1,63 @@
+/* Crédit en français
+Copyright (c) 2024 Noah Boos (aka Rift).
+Ce code est protégé par les droits d'auteurs, vos droits à l'égard de ce code sont définis par la license accompagné avec le projet.
+Voir le fichier "LICENSE.md" pour plus d'informations. Il devrait être situé à la racine du projet.
+
+Code source original de Noah Boos (aka Rift).
+Ce fichier fait partie du projet "Custom Callout".
+*/
+
+/* English credits
+Copyright (c) 2024 Noah Boos (aka Rift).
+This code is protected by copyright law. Your rights regarding this code are defined by the accompanying license.
+Please refer to the file named "LICENSE.md" for more information.
+
+Original source code from Noah Boos (aka Rift). This code should be located in the root directory of the project.
+This file is part of the "Custom Callout" project.
+*/
+
+/* GitHub Repository : https://github.com/NoahBoos/Obsidian-Better-Callout */
+
+/* White background */
+.callout[data-callout-metadata~="bg-white"] {
+    background-color: rgba(var(--mbr-white-rgb), var(--mbr-callout-opacity));
+}
+/* Black background */
+.callout[data-callout-metadata~="bg-black"] {
+    background-color: rgba(var(--mbr-black-rgb), var(--mbr-callout-opacity));
+}
+
+/* Red background */
+.callout[data-callout-metadata~="bg-red"] {
+    background-color: rgba(var(--mbr-red-rgb), var(--mbr-callout-opacity));
+}
+
+/* Orange background */
+.callout[data-callout-metadata~="bg-orange"] {
+    background-color: rgba(var(--mbr-orange-rgb), var(--mbr-callout-opacity));
+}
+
+/* Yellow background */
+.callout[data-callout-metadata~="bg-yellow"] {
+    background-color: rgba(var(--mbr-yellow-rgb), var(--mbr-callout-opacity));
+}
+
+/* Green background */
+.callout[data-callout-metadata~="bg-green"] {
+    background-color: rgba(var(--mbr-green-rgb), var(--mbr-callout-opacity));
+}
+
+/* Blue background */
+.callout[data-callout-metadata~="bg-blue"] {
+    background-color: rgba(var(--mbr-blue-rgb), var(--mbr-callout-opacity));
+}
+
+/* Purple background */
+.callout[data-callout-metadata~="bg-purple"] {
+    background-color: rgba(var(--mbr-purple-rgb), var(--mbr-callout-opacity));
+}
+
+/* Pink background */
+.callout[data-callout-metadata~="bg-pink"] {
+    background-color: rgba(var(--mbr-pink-rgb), var(--mbr-callout-opacity));
+}
