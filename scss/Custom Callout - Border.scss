@@ -1,0 +1,53 @@
+/* Crédit en français
+Copyright (c) 2024 Noah Boos (aka Rift).
+Ce code est protégé par les droits d'auteurs, vos droits à l'égard de ce code sont définis par la license accompagné avec le projet.
+Voir le fichier "LICENSE.md" pour plus d'informations. Il devrait être situé à la racine du projet.
+
+Code source original de Noah Boos (aka Rift).
+Ce fichier fait partie du projet "Custom Callout".
+*/
+
+/* English credits
+Copyright (c) 2024 Noah Boos (aka Rift).
+This code is protected by copyright law. Your rights regarding this code are defined by the accompanying license.
+Please refer to the file named "LICENSE.md" for more information.
+
+Original source code from Noah Boos (aka Rift). This code should be located in the root directory of the project.
+This file is part of the "Custom Callout" project.
+*/
+
+/* GitHub Repository : https://github.com/NoahBoos/Obsidian-Better-Callout */
+
+/* Set a border-width of each pixel width mentionned in the following variable. If standing alone, automatically build a solid border around the container it's applied to. */
+$border-width-values: 1px, 2px, 3px, 4px, 5px;
+
+@each $border-width-value in $border-width-values {
+    .callout[data-callout-metadata~="border-width-#{$border-width-value}"] {
+        border-width: $border-width-value;
+    }
+}
+
+/* Set a border-type of each border-type mentionned in the following variable. */
+$border-types: solid, double, dashed, dotted;
+
+@each $border-type in $border-types {
+    .callout[data-callout-metadata~="border-style-#{$border-type}"] {
+        border-style: $border-type;
+    }
+
+    .callout[data-callout-metadata~="border-top-style-#{$border-type}"] {
+        border-top-style: $border-type;
+    }
+
+    .callout[data-callout-metadata~="border-right-style-#{$border-type}"] {
+        border-right-style: $border-type;
+    }
+
+    .callout[data-callout-metadata~="border-bottom-style-#{$border-type}"] {
+        border-bottom-style: $border-type;
+    }
+
+    .callout[data-callout-metadata~="border-left-style-#{$border-type}"] {
+        border-left-style: $border-type;
+    }
+}
