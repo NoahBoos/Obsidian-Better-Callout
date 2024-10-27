@@ -1,0 +1,29 @@
+/* Crédit en français
+Copyright (c) 2024 Noah Boos (aka Rift).
+Ce code est protégé par les droits d'auteurs, vos droits à l'égard de ce code sont définis par la license accompagné avec le projet.
+Voir le fichier "LICENSE.md" pour plus d'informations. Il devrait être situé à la racine du projet.
+
+Code source original de Noah Boos (aka Rift).
+Ce fichier fait partie du projet "Custom Callout".
+*/
+/* English credits
+Copyright (c) 2024 Noah Boos (aka Rift).
+This code is protected by copyright law. Your rights regarding this code are defined by the accompanying license.
+Please refer to the file named "LICENSE.md" for more information.
+
+Original source code from Noah Boos (aka Rift). This code should be located in the root directory of the project.
+This file is part of the "Custom Callout" project.
+*/
+/* GitHub Repository : https://github.com/NoahBoos/Obsidian-Better-Callout */
+/* Hiding header. */
+.callout[data-callout-metadata~=no-header] > .callout-title {
+  display: none;
+}
+.callout[data-callout-metadata~=no-header] > .callout-content *:first-child {
+  margin-top: 1rem;
+}
+
+/* Hiding header icon. */
+.callout[data-callout-metadata~=no-icon] > .callout-title > .callout-icon {
+  display: none;
+}
