@@ -1,0 +1,57 @@
+/* Crédit en français
+Copyright (c) 2024 Noah Boos (aka Rift).
+Ce code est protégé par les droits d'auteurs, vos droits à l'égard de ce code sont définis par la license accompagné avec le projet.
+Voir le fichier "LICENSE.md" pour plus d'informations. Il devrait être situé à la racine du projet.
+
+Code source original de Noah Boos (aka Rift).
+Ce fichier fait partie du projet "Custom Callout".
+*/
+/* English credits
+Copyright (c) 2024 Noah Boos (aka Rift).
+This code is protected by copyright law. Your rights regarding this code are defined by the accompanying license.
+Please refer to the file named "LICENSE.md" for more information.
+
+Original source code from Noah Boos (aka Rift). This code should be located in the root directory of the project.
+This file is part of the "Custom Callout" project.
+*/
+/* GitHub Repository : https://github.com/NoahBoos/Obsidian-Better-Callout */
+/* Center text. */
+.callout[data-callout-metadata~=text-center] > .callout-content *:not(li) {
+  text-align: center;
+}
+
+/* Justify text. */
+.callout[data-callout-metadata~=text-justify] > .callout-content * {
+  text-align: justify;
+}
+
+/* Centering header's content. */
+.callout[data-callout-metadata~=header-centered] > .callout-title {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Align header's content on the right. */
+.callout[data-callout-metadata~=header-right] > .callout-title {
+  justify-content: right !important;
+  align-items: center;
+}
+
+/* Display header's content in reverse. */
+.callout[data-callout-metadata~=header-reverse] > .callout-title {
+  flex-direction: row-reverse;
+  justify-content: start;
+}
+.callout[data-callout-metadata~=header-reverse] > .callout-title > .callout-fold {
+  padding: 0px 0px 0px 0px;
+}
+.callout[data-callout-metadata~=header-reverse] > .callout-title > .callout-fold.is-collapsed {
+  transform: scaleX(-1);
+  padding: 0px 0px 0px 0px;
+}
+
+/* Center content's block. */
+.callout[data-callout-metadata~=content-center] > .callout-content > * {
+  width: fit-content;
+  margin: auto auto 1rem auto;
+}
