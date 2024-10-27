@@ -1,0 +1,65 @@
+/* Crédit en français
+Copyright (c) 2024 Noah Boos (aka Rift).
+Ce code est protégé par les droits d'auteurs, vos droits à l'égard de ce code sont définis par la license accompagné avec le projet.
+Voir le fichier "LICENSE.md" pour plus d'informations. Il devrait être situé à la racine du projet.
+
+Code source original de Noah Boos (aka Rift).
+Ce fichier fait partie du projet "Custom Callout".
+*/
+
+/* English credits
+Copyright (c) 2024 Noah Boos (aka Rift).
+This code is protected by copyright law. Your rights regarding this code are defined by the accompanying license.
+Please refer to the file named "LICENSE.md" for more information.
+
+Original source code from Noah Boos (aka Rift). This code should be located in the root directory of the project.
+This file is part of the "Custom Callout" project.
+*/
+
+/* GitHub Repository : https://github.com/NoahBoos/Obsidian-Better-Callout */
+
+body {
+    /* Global Variables */
+    --mbr-white-hex: #FFFFFF;
+    --mbr-white-rgb: 255, 255, 255;
+    --mbr-black-hex: #000000;
+    --mbr-black-rgb: 0, 0, 0;
+
+    --mbr-callout-opacity: 0.1;
+}
+
+body.theme-light {
+    /* Light Theme Variables */
+    --mbr-red-hex: #fb464c;
+    --mbr-red-rgb: 251, 70, 76;
+    --mbr-orange-hex: #e9973f;
+    --mbr-orange-rgb: 233, 151, 63;
+    --mbr-yellow-hex: #e0de71;
+    --mbr-yellow-rgb: 224, 222, 113;
+    --mbr-green-hex: #44cf6e;
+    --mbr-green-rgb: 68, 207, 110;
+    --mbr-blue-hex: #027aff;
+    --mbr-blue-rgb: 2, 122, 255;
+    --mbr-purple-hex: #a882ff;
+    --mbr-purple-rgb: 168, 130, 255;
+    --mbr-pink-hex: #fa99cd;
+    --mbr-pink-rgb: 250, 153, 205;
+}
+
+body.theme-dark {
+    /* Dark Theme Variables */
+    --mbr-red-hex: #fb464c;
+    --mbr-red-rgb: 251, 70, 76;
+    --mbr-orange-hex: #e9973f;
+    --mbr-orange-rgb: 233, 151, 63;
+    --mbr-yellow-hex: #e0de71;
+    --mbr-yellow-rgb: 224, 222, 113;
+    --mbr-green-hex: #44cf6e;
+    --mbr-green-rgb: 68, 207, 110;
+    --mbr-blue-hex: #027aff;
+    --mbr-blue-rgb: 2, 122, 255;
+    --mbr-purple-hex: #a882ff;
+    --mbr-purple-rgb: 168, 130, 255;
+    --mbr-pink-hex: #fa99cd;
+    --mbr-pink-rgb: 250, 153, 205;
+}
