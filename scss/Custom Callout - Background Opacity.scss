@@ -1,0 +1,69 @@
+/* Crédit en français
+Copyright (c) 2024 Noah Boos (aka Rift).
+Ce code est protégé par les droits d'auteurs, vos droits à l'égard de ce code sont définis par la license accompagné avec le projet.
+Voir le fichier "LICENSE.md" pour plus d'informations. Il devrait être situé à la racine du projet.
+
+Code source original de Noah Boos (aka Rift).
+Ce fichier fait partie du projet "Better Callout".
+*/
+
+/* English credits
+Copyright (c) 2024 Noah Boos (aka Rift).
+This code is protected by copyright law. Your rights regarding this code are defined by the accompanying license.
+Please refer to the file named "LICENSE.md" for more information.
+
+Original source code from Noah Boos (aka Rift). This code should be located in the root directory of the project.
+This file is part of the "Better Callout" project.
+*/
+
+/* GitHub Repository : https://github.com/NoahBoos/Obsidian-Better-Callout */
+
+/* Change callout opacity to 10%. */
+.callout[data-callout-metadata~="opacity-10"] {
+    --mbr-callout-opacity: 0.1;
+}
+
+/* Change callout opacity to 20%. */
+.callout[data-callout-metadata~="opacity-20"] {
+    --mbr-callout-opacity: 0.2;
+}
+
+/* Change callout opacity to 30%. */
+.callout[data-callout-metadata~="opacity-30"] {
+    --mbr-callout-opacity: 0.3;
+}
+
+/* Change callout opacity to 40%. */
+.callout[data-callout-metadata~="opacity-40"] {
+    --mbr-callout-opacity: 0.4;
+}
+
+/* Change callout opacity to 50%. */
+.callout[data-callout-metadata~="opacity-50"] {
+    --mbr-callout-opacity: 0.5;
+}
+
+/* Change callout opacity to 60%. */
+.callout[data-callout-metadata~="opacity-60"] {
+    --mbr-callout-opacity: 0.6;
+}
+
+/* Change callout opacity to 70%. */
+.callout[data-callout-metadata~="opacity-70"] {
+    --mbr-callout-opacity: 0.7;
+}
+
+/* Change callout opacity to 80%. */
+.callout[data-callout-metadata~="opacity-80"] {
+    --mbr-callout-opacity: 0.8;
+}
+
+/* Change callout opacity to 90%. */
+.callout[data-callout-metadata~="opacity-90"] {
+    --mbr-callout-opacity: 0.9;
+}
+
+/* Change callout opacity to 100%. */
+.callout[data-callout-metadata~="opacity-100"] {
+    --mbr-callout-opacity: 1.0;
+}
