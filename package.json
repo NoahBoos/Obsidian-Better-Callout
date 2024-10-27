@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build-css-pf": "sass --watch --no-source-map --no-charset scss:./",
+    "build-css-pf": "sass --watch --no-source-map --no-charset scss:./css",
     "build-css-sf": "sass --watch --no-source-map --no-charset scss:../",
-    "build-css-compressed": "sass --watch --no-source-map --no-charset scss/compressed.scss:\"./Custom Callout - Compressed.css\""
+    "build-css-compressed": "sass --watch --no-source-map --no-charset scss/compressed.scss:\"./css/Custom Callout - Compressed.css\""
   },
   "keywords": [],
   "author": "",
